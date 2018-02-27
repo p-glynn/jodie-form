@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css?family=Mukta+Mahee');
+
+body {
+  font-family: 'Mukta Mahee';
+}
+
+.container {
+  margin: 0 auto;
+  width: 30vw;
+  height: 5vh;
+  margin-top: 100px;
+}
+
+header {
+  text-align: center;
+  border: 1px solid rgb(55, 55, 55);
+  border-radius: 5px;
+  height: 2em;
+  padding-top: .5em;
+  background-color: rgb(66, 66, 66);
+  color: white;
+  font-family: 'Mukta Mahee', serif;
+}
+
+.bar {
+  width: 75%;
+  height: 40px;
+  background-color: rgb(235, 71, 40);
+  border-radius: 4px;
+
+}
+
+.bar-wrapper {
+  margin-top: 10px;
+  border: 1px solid lightgrey;
+  border-left: 0px;
+}
+
+.main {
+  border: 2px solid lightgrey;
+  margin-top: .5em;
+  border-radius: 10px;
+  height: 45vh;
+  width: 100%;
+}
+
+.red-text {
+  color: rgb(235, 71, 40);
+}
+
+article, a {
+  margin-top: 1em;
+  padding: 0px 1em;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(51,156, 211);
+}
+
+
+#give-now {
+  background-color: rgb(25, 182, 22);
+  color: white;
+  border: 1px solid lightgrey;
+  border-radius: 4px;
+  float: right;
+}
+
+input, #give-now {
+  font-size: 1.5em;
+  border: 1px solid lightgrey;
+}
+
+input {
+  width: 40%;
+}
+
+.form {
+  margin: .5em;
+}
+
+.buttons-bottom {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.bottom {
+  color: rgb(118, 118, 118);
+  background-color: rgb(249, 249, 249);
+  font-size: 1.5em;
+  margin: .25em;
+}
+
+#friend {
+  float: right;
+}
+
+@media screen and (min-width: 900px) and (max-width: 1200px) {
+  .container {
+    width: 800px;
+    height: 55vw;
+  }
+  .main {
+    height: 45vh;
+  }
+  header {
+    font-size: 1em;
+  }
+  body {
+    font-size: 2em;
+  }
+}
+
+@media screen and (min-width: 600px) and (max-width: 900px) {
+  .container{
+    width: 800px;
+    height: 75vw;
+  }
+  header {
+    font-size: 1.1em;
+  }
+  body {
+    font-size: 2.65em;
+  }
+  input, #give-now {
+    font-size: 1.5em;
+    width: 40%;
+    margin: .5em;
+
+    padding: 20px;
+  }
+  #give-now {
+    float: right;
+  }
+  .main {
+    height: 75vw;
+    /* width: 75vw; */
+  }
+}
